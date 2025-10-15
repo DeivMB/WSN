@@ -1,8 +1,8 @@
-## Contenedor Docker para la aplicación ROS2
+# Contenedor Docker para la aplicación ROS2
 
 Este proyecto incluye un `Dockerfile` que copia automáticamente los scripts de aplicación y de configuración dentro de la imagen. Esto permite ejecutar el contenedor directamente, sin necesidad de compilar los paquetes dentro del contenedor.
 
-# Ejecutar el contenedor
+## Ejecutar el contenedor
 
 Para ejecutar el contenedor y vincular un volumen local donde se guardarán los gráficos generados, utiliza el siguiente comando:
 
